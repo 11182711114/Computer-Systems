@@ -1,0 +1,3 @@
+register sp: 0x007FFFC
+movia	sp, 0x007FFFFC            /* stack starts from highest memory address in SDRAM */
+0x10001000 /* JTAG UART base address */
